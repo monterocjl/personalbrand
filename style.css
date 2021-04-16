@@ -1,3 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.bg-navbar {
+    background-color: rgb(8, 83, 112);
+}
