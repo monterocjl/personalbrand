@@ -71,13 +71,11 @@ body {
 .experiencia_55 {
     flex: 0 0 auto;
     width: 60%;
-    background-color: none;
 }
 
 .experiencia_45 {
     flex: 0 0 auto;
     width: 40%;
-    background-color: none;
 }
 
 .experiencia_serv {
@@ -119,5 +117,5 @@ body {
     font-size: 70px;
     font-weight: 600;
     color: #4e3aff;
-
+    line-height: 69px;
 }
