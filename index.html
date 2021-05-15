@@ -5,36 +5,29 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
-      crossorigin="anonymous"
-    />
-
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"
     
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script src="https://use.fontawesome.com/03a5d78d86.js"></script>
-    <script src="/personalbrand/app.js"></script>
+    <script src="/app.js"></script>
 
-    <link href="/personalbrand/style.css" type="text/css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <link href="/style.css" type="text/css" rel="stylesheet" />
 
-    <title>Hello, world!</title>
+    <title>Juan Montero - Desarrollador Web y Diseñador UX/UI</title>
   </head>
   <body>
         <!-- NAV BAR -->
     <nav class="menu">
-        <label class="logo">
-            Montero
+        <label class="logo_flex">
+            <img class="logo_nav" src="/personalbrand/images/Logo-web-FOTO.jpg"> 
         </label>
         <ul class="menu_items">
             <li><a class="active" href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Sobre mi</a></li>
             <li><a href="#">Portafolio</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contacto</a></li>
@@ -49,81 +42,74 @@
       <div class="portada">
         <div class="portada_65">
           <div class="font_portada">
-            Juan </br>Montero.
+            Juan Montero
           </div>
           <div class="linea"></div>
         </div>
         <div class="portada_35">
-          <div class="introduccion">— Introducción</div>
-          <h3 class="descripcion">
-            Desarrollador Web, </br>y Diseñador UX/UI.
-          </h3>
+          <h1 class="descripcion">
+            Desarrollador Web y Diseñador UX/UI
+          </h1>
+          <div class="descripcion_sub">
+            Creo y diseño webs que transmitan calidad, confianza y el valor de tu negocio.
+          </div>
           <a class="boton_1">
-            Mi historia              
+            Contáctame
           </a>
         </div>
       </div>
     </div>
 
-<!-- E X P E R I E N C I A -->    
+<!-- S E R V I C I O S -->    
+    <div class="contenedor_servicios">
+      <div class="carousel__a">
+    
+        <h2 class="servicios--title">
+          Servicios
+        </h2>
+        
+        <div class="">
+          <div class="carousel__contenedor">
+            <button aria-label="Anterior" class="carousel__anterior">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+    
+            <div class="carousel__lista">
+              <div class="carousel__elemento" style="height: auto;width: 330px;">
+                <div class="elemento__artista">
+                </div>
+              </div>
 
-    <div class="contenedor_experiencia">
-      <div class="portada_experiencia">
+              <div class="carousel__elemento" style="height: auto;width: 330px;">
+                <div class="elemento__artista">
+                </div>
+              </div>
 
-        <div class="experiencia_45">
-          <div class="experiencia_serv">
-            Los servicios que ofrezco podrían combinarse en caso la situación lo amerite o el cliente así lo requiera.
+              <div class="carousel__elemento" style="height: auto;width: 330px;">
+                <div class="elemento__artista">
+                </div>
+              </div>
+
+              <div class="carousel__elemento" style="height: auto;width: 330px;">
+                <div class="elemento__artista">
+                </div>
+              </div>
+    
           </div>
-          <h4 class="subtexto">
-              
-          </h4>
-        </div>
-
-        <div class="experiencia_55">
-          <div class="experiencia_numeros">
-            <div class="experiencia_numeros_4">
-              <div class="number_experiencia">3</div>
-              <div class="">Años de experiencia</div>
-            </div>
-            <div class="experiencia_numeros_4">
-              <div class="number_experiencia">+80</div>
-              <div class="">Proyectos realizados</div>
-            </div>
-            <div class="experiencia_numeros_4">
-              <div class="number_experiencia">+30</div>
-              <div class="">Clientes satisfechos</div>
-            </div>                        
             
-          </div>
+                    <button aria-label="Siguiente" class="carousel__siguiente">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+    
+          <div role="tablist" class="carousel__indicadores"></div>
+    
         </div>
-
+            
+       </div>
       </div>
     </div>
 
-
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Webs referencia Diseño -->
-    <!-- 
-  https://dribbble.com/shots/15266251-Personal-Portfolio-Website
-  https://dribbble.com/shots/10724776-Carlos-Personal-Portfolio-Website
-  https://dwinawan.com/
--->
-
-    <!-- Alternativas a Bootstrap -->
-    <!-- 
-  Foundation
-  Animate.CSS
-  Bulma
-  UIkit
-  Susy
-  https://www.creative-tim.com/
--->
+<!-- S C R I P T S -->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
   </body>
 </html>
