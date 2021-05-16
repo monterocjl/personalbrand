@@ -44,6 +44,7 @@ window.addEventListener('load', function(){
 
             breakpoint: 1130,
             settings: {
+              draggable: false,
               slidesToShow: 4,
               slidesToScroll: 4 ,
               itemWidth: 150,
