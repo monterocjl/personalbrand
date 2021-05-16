@@ -26,17 +26,16 @@ body {
 }
 
 @media screen and (max-width: 1110px) {
-.menu {
+  .menu {
     padding-left: 20px;
- }
+  }
 }
 
 @media screen and (max-width: 858px) {
-.menu {
-  margin-top: 20px;
+  .menu {
+    margin-top: 20px;
+  }
 }
-}
-
 
 @media screen and (min-width: 859px) and (max-width: 1110px) {
   .menu {
@@ -76,9 +75,14 @@ body {
 
 .menu_items li a:hover,
 a.active {
-  color: rgb(110, 177, 231);
   border-radius: 3px;
   transition: 0.3s;
+  text-decoration-color: currentColor;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0.125rem;
+  text-underline-offset: 0.125rem;
+  text-underline-position: under;
 }
 
 .menu_items li a.active {
@@ -157,7 +161,6 @@ ul.show {
   background-color: rgb(8, 83, 112);
 }
 
-
 /* P O R T A D A */
 .contenedor_portada {
   width: 100%;
@@ -208,7 +211,7 @@ ul.show {
   padding-right: 40px;
 }
 
-.boton_1 {
+button.boton_1 {
   padding: 13px 35px;
   border-radius: 30px;
   background: linear-gradient(90deg, #4e77f9 6%, #6ba9f9 70%);
@@ -220,6 +223,19 @@ ul.show {
   font-weight: 600;
   text-align: center;
   text-decoration: none;
+  transition-property: all;
+  transition-duration: 0.15s;
+  border: none;
+}
+
+button.boton_1:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
 }
 
 .linea {
@@ -232,16 +248,16 @@ ul.show {
 @media screen and (max-width: 1110px) {
   .contenedor_portada {
     padding-left: 20px;
-  }    
+  }
 }
 
 @media screen and (max-width: 858px) {
   .contenedor_portada {
     margin-top: 65px;
-  }    
+  }
 }
 
-@media screen and (max-width: 858px){
+@media screen and (max-width: 858px) {
   .portada {
     display: block;
   }
@@ -256,11 +272,11 @@ ul.show {
   .font_portada {
     font-size: 85px;
     letter-spacing: -3px;
-    line-height: 78px;    
+    line-height: 78px;
   }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px) {
   .contenedor_portada {
     margin-top: 50px;
   }
@@ -272,13 +288,9 @@ ul.show {
   .font_portada {
     font-size: 75px;
     letter-spacing: -3px;
-    line-height: 65px;    
+    line-height: 65px;
   }
 }
-
-
-
-
 
 /* S E R V I C I O S */
 
@@ -288,12 +300,6 @@ ul.show {
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 75px;
-}
-
-.contenedor {
-  max-width: 1200px;
-  width: 100cw
-  margin: auto;
 }
 
 .carousel__contenedor {
@@ -349,7 +355,6 @@ ul.show {
   text-align: center;
   color: #4e77f9;
   font-size: 30px;
-
 }
 
 .elemento__artista {
