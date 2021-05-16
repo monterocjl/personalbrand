@@ -254,6 +254,7 @@ button.boton_1:hover {
 @media screen and (max-width: 858px) {
   .contenedor_portada {
     margin-top: 65px;
+    padding-bottom: 65px;
   }
 }
 
@@ -291,6 +292,19 @@ button.boton_1:hover {
     line-height: 65px;
   }
 }
+
+@media screen and (min-width: 951px) and (max-width: 1129px) {
+  .glider-track {
+    width: 1284px !important;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 950px) {
+  .glider-track {
+    width: 1190px !important;
+  }
+}
+
 
 /* S E R V I C I O S */
 
@@ -355,6 +369,8 @@ button.boton_1:hover {
   text-align: center;
   color: #4e77f9;
   font-size: 30px;
+  font-size: 37px;
+  margin-bottom: 22px;
 }
 
 .elemento__artista {
@@ -375,6 +391,19 @@ button.boton_1:hover {
   width: 100%;
   margin: auto;
   margin-top: 40px;
+}
+
+.caja_servicio {
+  padding: 20px;
+}
+
+.titulo_servicio {
+  margin-top: 10px;
+}
+
+.parrafo_servicio {
+  margin-top: 10px;
+  font-weight: 500;
 }
 
 /* F I N - S E R V I C I O S */
