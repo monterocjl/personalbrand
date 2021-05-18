@@ -13,7 +13,12 @@
     <script src="https://use.fontawesome.com/03a5d78d86.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
     <link href="/style.css" type="text/css" rel="stylesheet" />
+    
 
     <title>Juan Montero - Desarrollador Web y Diseñador UX/UI</title>
   </head>
@@ -21,7 +26,7 @@
         <!-- NAV BAR -->
     <nav class="menu">
         <label class="logo_flex">
-            <img class="logo_nav" src="/Logo-web-FOTO.jpg"> 
+            <img class="logo_nav" src="/personalbrand/Logo-web-FOTO.jpg"> 
         </label>
         <ul class="menu_items">
             <li><a class="active" href="#">Inicio</a></li>
@@ -31,13 +36,13 @@
             <li><a href="#">Contacto</a></li>
         </ul>
         <div class="menuburger menuhilang" id="showmenumobile">
-          <img src="/burgerwhite.png">
+          <img src="/personalbrand/burgerwhite.png">
         </div>
 
         <!-- MENU MOBILE -->
         <div class="menumobile">
           <div class="headermenumobile">
-              <div class="logoplacement"><img class="logo_mobile" src="/Logo-web-FOTO.jpg"></div>
+              <div class="logoplacement"><img class="logo_mobile" src="/personalbrand/Logo-web-FOTO.jpg"></div>
               <div class="menuburger" id="closeburger"><img src="/personalbrand/closeburger.svg"></div>
           </div>
           <div class="positionmenu">
@@ -52,7 +57,6 @@
 
 
     </nav>
-
 <!-- P O R T A D A -->    
     <div class="contenedor_portada">
       <div class="portada">
@@ -67,7 +71,8 @@
             Desarrollador Web y Diseñador UX/UI
           </h1>
           <div class="descripcion_sub">
-            Creo y diseño webs que transmitan calidad, confianza y el valor de tu negocio.
+            Creo y diseño webs que transmitan calidad, confianza y 
+            <span class="text-span-31">el valor de tu negocio.</span>
           </div>
           <a href="/contacto.html" class="link" >
           <button class="boton_1">
@@ -76,14 +81,13 @@
         </div>
       </div>
     </div>
-
 <!-- S E R V I C I O S -->    
     <div class="contenedor_servicios">
       <div class="carousel__a">
     
-        <h2 class="servicios--title">
+        <div class="servicios--title">
           Servicios
-        </h2>
+        </div>
         
         <div class="">
           <div class="carousel__contenedor">
@@ -174,11 +178,48 @@
        </div>
       </div>
     </div>
+<!-- P O R T A F O L I O -->
+<div class="contenedor_portafolio">
+<div class="row g-0 flex_portafolio">
+  <div class="col-6 col-sm-6 col-md-8 col-lg-8">
+    <div class="backgroundinteraction1 previewimage">
+      <img src="/portafolio1.jpg" alt="portafolio 1">
+    </div>
+  </div>
+  <div class="col-6 col-sm-6 col-md-4 col-lg-4">
+    <div class="backgroundinteraction1 previewimage">
+      <img src="/portafolio2.jpg" alt="portafolio 1">
+    </div>
+    <div class="backgroundinteraction1 previewimage move_porta">
+      <img src="/portafolio3.jpg" alt="portafolio 1">
+    </div>
+  </div>
+  <div class="col-6 col-sm-6 col-md-4 col-lg-4">
+    <div class="backgroundinteraction1 previewimage">
+      <img src="/portafolio4.jpg" alt="portafolio 1">
+    </div>
+    <div class="backgroundinteraction1 previewimage">
+      <img src="/portafolio5.jpg" alt="portafolio 1">
+    </div>
+  </div>
+  <div class="col-6 col-sm-6 col-md-8 col-lg-8">
+    <div class="backgroundinteraction1 previewimage">
+      <img src="/portafolio6.jpg" alt="portafolio 1">
+    </div>
+    <div class="backgroundinteraction1 previewimage move_porta2">
+      <img src="/portafolio3.jpg" alt="portafolio 1">
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
 
 <!-- S C R I P T S -->
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script> 
     <script src="/app.js"></script>
     <script src="/menumobile.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </body>
 </html>
