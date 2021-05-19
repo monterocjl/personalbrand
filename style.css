@@ -13,6 +13,11 @@ body {
   color: #1b222d;
 }
 
+p::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, span::selection, div::selection, a::selection {
+  background: #4e77f9;
+  color: #1b222d;
+}
+
 .menu {
   height: 75px;
   display: flex;
@@ -551,16 +556,3 @@ button.boton_1:hover {
 .backgroundinteraction1 img {
   max-width: -webkit-fill-available;
 }
-
-@media only screen and (max-width: 767px) {
-  .move_porta {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .move_porta2 {
-    display: none;
-  }
-}
-
