@@ -70,7 +70,7 @@ body {
   font-size: 18px;
   display: block;
   color: #4e77f9;
-  font-weight: 600;
+  font-weight: 650;
 }
 
 .menu_items li a:hover,
@@ -187,24 +187,26 @@ ul.show {
 }
 
 .font_portada {
-  font-weight: 650;
-  font-size: 120px;
-  line-height: 99px;
-  letter-spacing: -5px;
-  padding-right: 46px;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 71px;
+  letter-spacing: -3px;
+  padding-right: 0px;
   margin-bottom: 0px;
+  padding-top: 12px;
 }
 
 .descripcion_sub {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 600;
-  margin-bottom: 37px;
-  line-height: 23px;
+  margin-bottom: 27px;
+  line-height: 24px;
   padding-right: 40px;
+  letter-spacing: -0.4px;
 }
 
 .text-span-31 {
-  background-image: url(/personalbrand/linea-texto.jpg);
+  background-image: url(/linea-texto.jpg);
   background-position: 50% 95%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -212,20 +214,20 @@ ul.show {
 
 .descripcion {
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 32px;
   padding-right: 40px;
 }
 
 button.boton_1 {
-  padding: 13px 35px;
-  border-radius: 30px;
+  padding: 17px 19px;
+  border-radius: 7px;
   background: linear-gradient(90deg, #4e77f9 6%, #6ba9f9 70%);
   transition: box-shadow 350ms ease, transform 350ms ease,
     -webkit-transform 350ms ease;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 1em;
   font-weight: 600;
   text-align: center;
@@ -238,17 +240,19 @@ button.boton_1 {
 button.boton_1:hover {
   cursor: pointer;
   transform: scale(1.04);
+  
 }
 
 .link {
   text-decoration: none;
   color: #fff;
+  color: white!important;
 }
 
 .linea {
   margin-top: 20px;
-  height: 8px;
-  width: 70px;
+  height: 9px;
+  width: 74px;
   background-color: #4e77f9;
 }
 
@@ -278,9 +282,9 @@ button.boton_1:hover {
     padding-right: 20px;
   }
   .font_portada {
-    font-size: 85px;
-    letter-spacing: -3px;
-    line-height: 78px;
+    font-size: 49px;
+    letter-spacing: -2px;
+    line-height: 55px;
   }
 }
 
@@ -294,9 +298,9 @@ button.boton_1:hover {
     padding-right: 20px;
   }
   .font_portada {
-    font-size: 75px;
-    letter-spacing: -3px;
-    line-height: 65px;
+    font-size: 40px;
+    letter-spacing: -2px;
+    line-height: 45px;
   }
 }
 
@@ -425,7 +429,12 @@ button.boton_1:hover {
 }
 
 .menuburger img{
-  width:40px;
+  width: 39px;
+  cursor: pointer;
+}
+
+.menuburger_x img{
+  width:50px;
   cursor: pointer;
 }
 
@@ -453,20 +462,22 @@ button.boton_1:hover {
 
 .menumobile a{
   text-decoration: none;
-  color:#082431;
-  font-size: 40px;
-  line-height: 40px;
-  padding:20px 0px;
+  color:#4e77f9;
+  font-size: 30px;
+  line-height: 30px;
+  padding:12px 0px;
   display: block;
-  opacity:0.6;
+  opacity:1;
+  font-weight: 620;
 }
 
 .menumobile a.active{
   opacity:1;
+  color:#212529;
 }
 
 .positionmenu{
-  margin-top:50px;
+  margin-top: 30px;
 }
 
 @media only screen and (max-width: 858px) {
@@ -498,14 +509,17 @@ button.boton_1:hover {
 .menuburger {
   float: right;
   margin-top: 4px;
-  margin-top: 13px;
 }
 
+.menuburger_x {
+  float: right;
+  margin-top: 12px;
+}
 
 /* P O R T A F O L I O */
 
 .contenedor_portafolio {
-  background-color:#082431;
+  background-color: #1b222d;
   width: 100%;
   max-width: 100vw;
   margin-right: auto;
@@ -527,6 +541,11 @@ button.boton_1:hover {
 
 .previewimage {
   padding: 5px;
+}
+
+.previewimage video {
+  width: 100%;
+  display: block;
 }
 
 .backgroundinteraction1 img {
