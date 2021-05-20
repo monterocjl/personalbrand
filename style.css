@@ -13,7 +13,7 @@ body {
   color: #1b222d;
 }
 
-p::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, span::selection, div::selection, a::selection {
+p::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, span::selection, div::selection, a::selection, br::selection {
   background: #4e77f9;
   color: #1b222d;
 }
@@ -23,7 +23,6 @@ p::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::se
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #fff;
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
@@ -62,6 +61,7 @@ p::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::se
   display: flex;
   list-style: none;
   margin-right: 0;
+  margin-bottom: 0;
 }
 
 .menu_items li {
@@ -430,7 +430,7 @@ button.boton_1:hover {
 
 .headermenumobile{
   height:70px;
-  padding:20px;
+  padding:2px;
 }
 
 .menuburger img{
@@ -439,7 +439,7 @@ button.boton_1:hover {
 }
 
 .menuburger_x img{
-  width:50px;
+  width: 44px;
   cursor: pointer;
 }
 
@@ -455,25 +455,26 @@ button.boton_1:hover {
   text-decoration: none;
   background-color: #ffffff;
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 27px;
+  right: 18px;
   bottom: 0;
-  width:100%;
-  height:100%;
+  width: 321px;
+  height: 398px;
   z-index: 9;
   display: none;
+  border-radius: 18px;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 9%);
 }
 
 .menumobile a{
   text-decoration: none;
   color:#4e77f9;
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 27px;
+  line-height: 27px;
   padding:12px 0px;
   display: block;
   opacity:1;
-  font-weight: 620;
+  font-weight: 600;
 }
 
 .menumobile a.active{
@@ -482,8 +483,11 @@ button.boton_1:hover {
 }
 
 .positionmenu{
-  margin-top: 30px;
+  margin-top: 10px;
+  text-align: left;
+  padding-left: 60px;
 }
+
 
 @media only screen and (max-width: 858px) {
   .menuhilang{
@@ -518,7 +522,7 @@ button.boton_1:hover {
 
 .menuburger_x {
   float: right;
-  margin-top: 12px;
+  margin-top: 4px;
 }
 
 /* P O R T A F O L I O */
@@ -556,3 +560,6 @@ button.boton_1:hover {
 .backgroundinteraction1 img {
   max-width: -webkit-fill-available;
 }
+
+/* B L O G - P A G E */
+
