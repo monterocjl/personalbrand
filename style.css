@@ -563,3 +563,18 @@ button.boton_1:hover {
 
 /* B L O G - P A G E */
 
+.contenedor_blog {
+  width: 100%;
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 190px;
+  margin-top: 53px;
+}
+
+.blog_titulo {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+}
+
