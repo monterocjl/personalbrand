@@ -116,9 +116,6 @@ ul.show {
     font-size: 30px;
     padding-left: 35px;
   }
-  .menu_items li a {
-    font-size: 16px;
-  }
 }
 
 @media screen and (max-width: 858px) {
@@ -172,7 +169,7 @@ ul.show {
 }
 
 /* P O R T A D A */
-.contenedor_portada {
+.contenedor_web {
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -233,7 +230,7 @@ ul.show {
 button.boton_1 {
   padding: 20px 25px;
   border-radius: 6px;
-  background: linear-gradient(90deg, #4e77f9 6%, #6ba9f9 70%);
+  background: #4e77f9;
   transition: box-shadow 350ms ease, transform 350ms ease,
     -webkit-transform 350ms ease;
   color: #ffffff;
@@ -249,7 +246,7 @@ button.boton_1 {
 
 button.boton_1:hover {
   cursor: pointer;
-  transform: scale(1.04);
+  transform: scale(1.025);
   
 }
 
@@ -267,13 +264,13 @@ button.boton_1:hover {
 }
 
 @media screen and (max-width: 1110px) {
-  .contenedor_portada {
+  .contenedor_web {
     padding-left: 20px;
   }
 }
 
 @media screen and (max-width: 858px) {
-  .contenedor_portada {
+  .contenedor_web {
     margin-top: 65px;
     padding-bottom: 65px;
   }
@@ -298,8 +295,8 @@ button.boton_1:hover {
   }
 }
 
-@media screen and (max-width: 375px) {
-  .contenedor_portada {
+@media screen and (max-width: 400px) {
+  .contenedor_web {
     margin-top: 50px;
   }
   .portada_35 {
@@ -326,6 +323,19 @@ button.boton_1:hover {
   }
 }
 
+.subtitulos {
+  font-size: 41px;
+  margin-bottom: 22px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+@media screen and (max-width: 400px) {
+.subtitulos {
+  font-size: 37px;
+  letter-spacing: -1.5px;
+ }
+}
 
 /* S E R V I C I O S */
 
@@ -334,7 +344,6 @@ button.boton_1:hover {
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 75px;
 }
 
 .carousel__contenedor {
@@ -386,23 +395,11 @@ button.boton_1:hover {
   }
 }
 
-.servicios--title {
-  font-size: 41px;
-  margin-bottom: 22px;
-  font-weight: bold;
-}
-
-@media screen and (max-width: 1110px) {
-  .servicios--title {
-    padding-left: 20px;
-  }
-}
-
 .elemento__artista {
   width: 239px;
   height: 284px;
   display: block;
-  border-radius: 20px;
+  border-radius: 6px;
   box-sizing: border-box;
   background-color: #263040;
   box-shadow: -11px 11px 16px rgb(0 0 0 / 3%);
@@ -415,7 +412,7 @@ button.boton_1:hover {
 .carousel__a {
   width: 100%;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 120px;
 }
 
 .caja_servicio {
@@ -778,3 +775,44 @@ button.boton_1:hover {
    }
   }
   
+/* SÉ LO QUE BUSCAS */
+.contenedor_seloquebuscas {
+  margin-top: 110px;
+}
+
+.fondo_slqb {
+  background-color: #263040;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 155px;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 6px;
+  padding: 10px 20px 15px 20px;
+  margin-right: 20px;
+}
+
+.icono_slqb {
+  font-size: 75px;
+  float: right;
+  margin-top: -20px;
+}
+
+.numero_slqb {
+  font-size: 55px;
+  font-weight: 900;
+  color: #4e77f9;
+}
+
+.text_slqb {
+  font-size: 32px;
+  font-weight: 600;
+  padding-right: 85px;
+  line-height: 32px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.marca-txt {
+  background-color: #ffc83d;
+  color: #1b222d;
+  font-weight: 700;
+}
