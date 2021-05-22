@@ -9,8 +9,8 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  background: linear-gradient(180deg, #fff 6%, #eef7ff 70%);
-  color: #1b222d;
+  background: linear-gradient(180deg, #1b222d 6%, #1b222d 70%);
+  color: #ffffff;
 }
 
 p::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, span::selection, div::selection, a::selection, br::selection {
@@ -96,7 +96,7 @@ a.active {
 }
 
 .menu_items li a.active {
-  color: #1b222d;
+  color: #ffffff;
 }
 
 .btn_menu {
@@ -387,11 +387,15 @@ button.boton_1:hover {
 }
 
 .servicios--title {
-  text-align: center;
-  color: #4e77f9;
-  font-size: 37px;
+  font-size: 41px;
   margin-bottom: 22px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 1110px) {
+  .servicios--title {
+    padding-left: 20px;
+  }
 }
 
 .elemento__artista {
@@ -400,7 +404,7 @@ button.boton_1:hover {
   display: block;
   border-radius: 20px;
   box-sizing: border-box;
-  background-color: #ffffff;
+  background-color: #263040;
   box-shadow: -11px 11px 16px rgb(0 0 0 / 3%);
   margin-top: 20px;
   margin-bottom: 30px;
@@ -539,13 +543,24 @@ button.boton_1:hover {
   max-width: 100vw;
   margin-right: auto;
   margin-left: auto;
-  padding: 50px;
+  padding: 20px;
 }
 
 @media only screen and (max-width: 767px) {
   .contenedor_portafolio {
     padding: 20px;
  }
+}
+
+.portafolio_titulo {
+  color: #ffffff;
+  font-size: 41px;
+  margin-bottom: 27px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+  margin-top: 20px;
 }
 
 .flex_portafolio {
@@ -555,16 +570,18 @@ button.boton_1:hover {
 }
 
 .previewimage {
-  padding: 5px;
+  padding: 10px;
 }
 
 .previewimage video {
   width: 100%;
   display: block;
+  border-radius: 6px;
 }
 
 .backgroundinteraction1 img {
   max-width: -webkit-fill-available;
+  border-radius: 6px;
 }
 
 /* B L O G - P A G E */
@@ -623,24 +640,27 @@ button.boton_1:hover {
 .img_articulo_1 img {
   width: 100%;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 .articulo_1_titulo {
   font-weight: 800;
   font-size: 32px;
   margin-bottom: 0;
+  color: #ffffff;
 }
 
 .articulo_1_subtitulo {
   font-weight: 500;
   font-size: 18px;
+  color: #ffffff;
 }
 
 .articulo_1_fecha{
   margin-bottom: 4px;
   font-weight: 500;
   margin-top: 7px;
+  color: #ffffff;
 }
 
 .img_articulo_2 {
@@ -658,24 +678,27 @@ button.boton_1:hover {
 .img_articulo_2 img {
   width: 100%;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 .articulo_2_titulo {
   font-weight: 800;
   font-size: 32px;
   margin-bottom: 0;
+  color: #ffffff;
 }
 
 .articulo_2_subtitulo {
   font-weight: 500;
   font-size: 18px;
+  color: #ffffff;
 }
 
 .articulo_2_fecha{
   margin-bottom: 4px;
   font-weight: 500;
   margin-top: 7px;
+  color: #ffffff;
 }
 
 /* A B O U T - M E */
