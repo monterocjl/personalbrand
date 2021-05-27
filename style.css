@@ -57,9 +57,7 @@ a {
 }
 
 .logo_nav {
-  width: 56px;
-  height: 56px;
-  border-radius: 50px;
+  width: 55px;
 }
 
 .menu_items {
@@ -167,7 +165,6 @@ ul.show {
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 190px;
   margin-top: 95px;
 }
 .portada {
@@ -265,7 +262,6 @@ button.boton_1:hover {
 @media screen and (max-width: 858px) {
   .contenedor_web {
     margin-top: 65px;
-    padding-bottom: 65px;
   }
 }
 
@@ -354,11 +350,11 @@ button.boton_1:hover {
   cursor: pointer;
   line-height: 30px;
   text-align: center;
-  color: #000;
+  color: #ffffff;
   opacity: 80%;
-  background-color: rgb(255, 255, 255);
+  background-color: #263040;
   border-radius: 24px;
-  box-shadow: 0 0 0 1px rgb(127 127 127 / 5%), 0 2px 5px rgb(127 127 127 / 50%);
+  box-shadow: 0 0 5px 1px rgb(255 255 255 / 32%);
 }
 
 .carousel__anterior:hover,
@@ -369,12 +365,12 @@ button.boton_1:hover {
 }
 
 .carousel__anterior {
-  left: 27px;
+  left: 13px;
   z-index: 20;
 }
 
 .carousel__siguiente {
-  right: 27px;
+  right: 14px;
 }
 
 .carousel__lita {
@@ -581,15 +577,6 @@ button.boton_1:hover {
 }
 
 /* B L O G - P A G E */
-
-.contenedor_blog {
-  width: 100%;
-  max-width: 1100px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-bottom: 190px;
-  margin-top: 53px;
-}
 
 .blog_titulo {
   text-align: center;
@@ -848,9 +835,10 @@ button.boton_1:hover {
 .cta_about_me {
   background-color: #263040;
   border-radius: 4px;
-  padding: 20px;
   margin-right: 20px;
   margin-top: 40px;
+  text-align: center;
+  padding: 40px;
 }
 
 
@@ -875,10 +863,52 @@ button.boton_1:hover {
     margin: 10px 0px 24px 0px;
   } 
 }
+
+.cta_about_me_title {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+button.boton_2 {
+  padding: 19px 10px;
+  border-radius: 4px;
+  background: #4e77f9;
+  transition: box-shadow 350ms ease, transform 350ms ease, -webkit-transform 350ms ease;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 1em;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  transition-property: all;
+  transition-duration: 0.15s;
+  border: none;
+  margin-top: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+button.boton_2:hover {
+  cursor: pointer;
+  transform: scale(1.025);
+  
+}
+
+@media screen and (max-width: 600px) {
+  button.boton_2  {
+    font-size: 25px;
+    width: 90%;
+  }
+  .cta_about_me_title {
+    font-size: 30px;
+  }
+}
   
 /* SÉ LO QUE BUSCAS */
 .contenedor_seloquebuscas {
-  margin-top: 110px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .fondo_slqb {
@@ -916,4 +946,101 @@ button.boton_1:hover {
   background-color: #ffc83d;
   color: #1b222d;
   font-weight: 700;
+}
+
+/* FOOTER */
+.footer {
+  margin-right: 10px;
+  margin-top: 50px;
+}
+
+.block-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 35px;
+  padding-bottom: 25px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .block-footer {
+    display: block;
+  }
+}
+
+.footer-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .block-footer {
+    display: block;
+  }
+  .footer-group {
+    margin-top: 15px;
+  }
+  .footer-link {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+
+.footer-link {
+  margin-right: 15px;
+}
+
+.icon-footer {
+  width: 30px;
+  transition: box-shadow 350ms ease, transform 350ms ease,
+  -webkit-transform 350ms ease;
+  transition-property: all;
+  transition-duration: 0.15s;
+}
+
+.icon-footer:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+}
+
+
+/* CONTACTO */
+.contacto-titulo {
+  font-weight: 700;
+  font-size: 40px;
+  color: #4e77f9;
+}
+
+.form-contacto {
+  background-color: #263040;
+  border-radius: 4px;
+  margin-right: 20px;
+  margin-top: 30px;
+  text-align: center;
+  max-width: 520px;
+}
+
+.sib-form .entry__field:focus-within {
+  box-shadow: none !important;
 }
