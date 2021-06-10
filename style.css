@@ -256,6 +256,7 @@ button.boton_1:hover {
 @media screen and (max-width: 1110px) {
   .contenedor_web {
     padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -579,7 +580,7 @@ button.boton_1:hover {
 
 @media only screen and (max-width: 991px) {
 .row_margenes {
-  margin: 0px 10px 0px 10px;
+  margin: 0px 0px 0px 0px;
  }
 }
 
@@ -595,7 +596,7 @@ button.boton_1:hover {
 
 @media only screen and (max-width: 767px) {
   .articulos_ {
-    padding: 0px 20px 55px 20px;
+    padding: 0px 0px 40px 0px;
   }
 }
 
@@ -631,11 +632,11 @@ button.boton_1:hover {
   color: #ffffff;
 }
 
-.articulo_1_fecha{
+.articulo_fecha{
   margin-bottom: 4px;
   font-weight: 500;
   margin-top: 7px;
-  color: #ffffff;
+  color: #4e77f9;
 }
 
 .img_articulo_2 {
@@ -666,13 +667,6 @@ button.boton_1:hover {
 .articulo_2_subtitulo {
   font-weight: 500;
   font-size: 18px;
-  color: #ffffff;
-}
-
-.articulo_2_fecha{
-  margin-bottom: 4px;
-  font-weight: 500;
-  margin-top: 7px;
   color: #ffffff;
 }
 
@@ -827,10 +821,9 @@ button.boton_1:hover {
 .cta_about_me {
   background-color: #263040;
   border-radius: 4px;
-  margin-right: 20px;
   margin-top: 40px;
   text-align: center;
-  padding: 40px;
+  padding: 40px 20px 40px 20px;
 }
 
 
@@ -840,11 +833,6 @@ button.boton_1:hover {
   border-radius: 4px;
  }
 
- @media screen and (max-width: 1110px) {
-  .contenedor_img_about {
-    padding-right: 20px;
-   }
-}
 
 .boton_about {
   margin: 24px 0px 24px 0px;
@@ -858,8 +846,8 @@ button.boton_1:hover {
 
 .cta_about_me_title {
   font-weight: bold;
-  font-size: 40px;
-  margin-bottom: 25px;
+  font-size: 36px;
+  margin-bottom: 19px;
 }
 
 button.boton_2 {
@@ -868,9 +856,9 @@ button.boton_2 {
   background: #4e77f9;
   transition: box-shadow 350ms ease, transform 350ms ease, -webkit-transform 350ms ease;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 1em;
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
   text-decoration: none;
   transition-property: all;
@@ -889,7 +877,7 @@ button.boton_2:hover {
 
 @media screen and (max-width: 600px) {
   button.boton_2  {
-    font-size: 25px;
+    font-size: 23px;
     width: 90%;
   }
   .cta_about_me_title {
@@ -910,7 +898,6 @@ button.boton_2:hover {
   border-bottom-right-radius: 19px;
   border-bottom-left-radius: 4px;
   padding: 20px;
-  margin-right: 20px;
 }
 
 .icono_slqb {
@@ -942,7 +929,6 @@ button.boton_2:hover {
 
 /* FOOTER */
 .footer {
-  margin-right: 10px;
   margin-top: 50px;
 }
 
