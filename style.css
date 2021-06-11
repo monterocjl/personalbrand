@@ -13,7 +13,7 @@ body {
   color: #ffffff;
 }
 
-p::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, span::selection, div::selection, a::selection, br::selection {
+p::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, span::selection, div::selection, a::selection, br::selection, b::selection {
   background: #4e77f9;
   color: #1b222d;
 }
@@ -621,15 +621,17 @@ button.boton_1:hover {
 
 .articulo_1_titulo {
   font-weight: 800;
-  font-size: 32px;
+  font-size: 29px;
   margin-bottom: 0;
   color: #ffffff;
+  margin-top: 11px;
 }
 
 .articulo_1_subtitulo {
   font-weight: 500;
   font-size: 18px;
   color: #ffffff;
+  margin-top: 11px;
 }
 
 .articulo_fecha{
@@ -645,6 +647,8 @@ button.boton_1:hover {
   height: 353px;
 }
 
+
+
 @media only screen and (max-width: 414px) {
   .img_articulo_2 {
     height: 200px;
@@ -659,15 +663,17 @@ button.boton_1:hover {
 
 .articulo_2_titulo {
   font-weight: 800;
-  font-size: 32px;
+  font-size: 29px;
   margin-bottom: 0;
   color: #ffffff;
+  margin-top: 11px;
 }
 
 .articulo_2_subtitulo {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 19px;
   color: #ffffff;
+  margin-top: 6px;
 }
 
 /* A B O U T - M E */
@@ -1074,5 +1080,15 @@ button.boton_2:hover {
   font-size: 19px;
   font-weight: 200;
   line-height: 30px;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.20px;
+}
+
+.select-articulo {
+  display: inline-block;
+  max-width: 100%;
+  transition: all 0.1s;
+}
+
+.select-articulo:hover {
+    transform: translate(0,-2px);
 }
